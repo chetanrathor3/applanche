@@ -1,0 +1,10 @@
+.container{
+    max-width: 1072px;
+    box-sizing: border-box;
+    border: 1px solid #DADADA;
+    border-radius: 30px;
+}
+
+.second-col{
+    width: max-content;
+}

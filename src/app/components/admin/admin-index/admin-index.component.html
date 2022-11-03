@@ -1,0 +1,204 @@
+<div class="container" style="max-width: 1440px; height: 948px">
+  <div class="row" style="height: 100%">
+    <div
+      class="col-3"
+      style="
+        background: #ffffff;
+        box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.06);
+        height: 100%;
+      "
+    >
+      <div
+        class="container-fluid d-flex flex-column justify-content-between"
+        style="height: 412px"
+      >
+        <div
+          class="container-fluid d-flex flex-column justify-content-center"
+          style="height: 141px"
+        >
+          <h3 class="heading">Applanche</h3>
+        </div>
+        <div class="container-fluid" style="max-height: 315px">
+          <ul
+            class="d-flex flex-column justify-content-between h-100 align-center"
+          >
+            <div
+              routerLinkActive="activateLink"
+              class="d-flex flex-column justify-content-center"
+              style="max-width: 209px; height: 70px"
+            >
+              <div
+                class="row p-0 justify-content-center"
+                style="max-width: 100%"
+              >
+                <div
+                  class="col-12 d-flex flex-row justify-content-between p-0"
+                  style="max-width: 87px"
+                >
+                  <a routerLink="usersList">
+                    <i class="fa-solid fa-user"></i>
+                    <li>Users</li>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              routerLinkActive="activateLink"
+              class="d-flex flex-column justify-content-center"
+              style="max-width: 209px; height: 70px"
+            >
+              <div
+                class="row p-0 justify-content-center"
+                style="max-width: 100%"
+              >
+                <div
+                  class="col-12 d-flex flex-row justify-content-between p-0"
+                  style="max-width: 87px"
+                >
+                  <a routerLinkActive="activateLink" routerLink="projectsList">
+                    <i class="fa-solid fa-user"></i>
+                    <li>Projects</li>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              routerLinkActive="activateLink"
+              class="d-flex flex-column justify-content-center"
+              style="max-width: 209px; height: 70px"
+            >
+              <div
+                class="row p-0 justify-content-center"
+                style="max-width: 100%"
+              >
+                <div
+                  class="col-12 d-flex flex-row justify-content-between p-0"
+                  style="max-width: 87px"
+                >
+                  <a routerLinkActive="activateLink" routerLink="bloglist">
+                    <i class="fa-solid fa-user"></i>
+                    <li>Blogs</li>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              routerLinkActive="activateLink"
+              class="d-flex flex-column justify-content-center"
+              style="max-width: 209px; height: 70px"
+            >
+              <div
+                class="row p-0 justify-content-center"
+                style="max-width: 100%"
+              >
+                <div
+                  class="col-12 d-flex flex-row justify-content-between p-0"
+                  style="max-width: 87px"
+                >
+                  <a routerLinkActive="activateLink" routerLink="teamList">
+                    <i class="fa-solid fa-user"></i>
+                    <li>Teams</li>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-9">
+      <div
+        class="row justify-content-center align-content-center"
+        style="
+          max-width: 1160px;
+          height: 100px;
+          box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+        "
+      >
+        <div
+          class="col-12 d-flex flex-row justify-content-between"
+          style="max-width: 1000px"
+        >
+          <input
+            placeholder="search"
+            type="text"
+            name=""
+            id=""
+            style="
+              background: #b3bac5;
+              mix-blend-mode: normal;
+              opacity: 0.1;
+              text-color: black;
+              border-radius: 8px;
+              width: 647px;
+              height: 50px;
+            "
+          />
+          <button
+            class="btn btn-primary"
+            style="width: 109px; height: 49px; background-color: #004fff"
+          >
+            Alex
+          </button>
+        </div>
+      </div>
+      <div
+        class="row align-content-center justify-content-center"
+        style="height: 109px"
+      >
+        <div
+          class="col-12 d-flex flex-row justify-content-between"
+          style="max-width: 1000px"
+        >
+          <h1
+            style="
+              font-family: 'Nunito';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 32px;
+              line-height: 44px;
+              /* identical to box height */
+              text-transform: capitalize;
+              /* Title text */
+              color: #2d2f55;
+            "
+          >
+            {{ heading }}
+          </h1>
+          <div class="row justify-content-between" style="max-width: 640px">
+            <select
+              name=""
+              id=""
+              aria-placeholder="Select"
+              style="
+                background: #ffffff;
+                /* Stroke Line */
+
+                border: 1px solid #ececf2;
+                border-radius: 8px;
+                width: 200px;
+                height: 50px;
+              "
+            ></select>
+            <select
+              name=""
+              id=""
+              aria-placeholder="Select"
+              style="
+                background: #ffffff;
+                /* Stroke Line */
+
+                border: 1px solid #ececf2;
+                border-radius: 8px;
+                width: 200px;
+                height: 50px;
+              "
+            ></select>
+            <button routerLink="addBlog" style="height: 50px; width: 200px; background-color: #004fff;">Add Blog</button>
+          </div>
+        </div>
+      </div>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

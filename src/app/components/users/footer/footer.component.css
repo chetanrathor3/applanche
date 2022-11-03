@@ -1,0 +1,28 @@
+.container-fluid{
+    background: #F5F5F5;
+    height: 434px;
+}
+.container{
+    max-width: 1072px;
+  
+}
+.soci{
+    height:80px;
+}
+.font1{
+font-family: 'Inter';
+}
+.quick-links{
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 16px;
+    color:#999999;
+}
+.quick-links-h{
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 34px;
+    font-size: 22px;
+    color:#000000;
+}

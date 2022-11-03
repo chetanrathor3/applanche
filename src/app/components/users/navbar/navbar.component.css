@@ -1,0 +1,33 @@
+
+
+.main{
+    border-bottom: 1px solid #DADADA; ;
+}
+.container{
+    max-width: 1072px;
+}
+.navbar{
+    padding: 22px 0px;
+    
+}
+.navbar-brand{
+    font-family: 'Inter', sans-serif;
+    color: #004FFF !important;
+    font-weight: 700;
+    line-height: 48px;
+    font-size: 32px;
+
+}
+.nav-link{
+    font-family:'Inter';
+    color: #111111 !important;
+    font-size: 20px;
+    line-height: 48px;
+    font-weight:400 ;
+}
+.list{
+    width: 100%;
+}
+.items{
+    max-width: 585px;
+}

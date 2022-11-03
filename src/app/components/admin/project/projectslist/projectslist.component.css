@@ -1,0 +1,56 @@
+.heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.0379px;
+    line-height: 38px;
+    /* identical to box height, or 117% */
+    text-align: center;
+  
+    /* Title text */
+  
+    color: #040404;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  div > li {
+    text-align: center;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+  
+    text-transform: capitalize;
+  
+  }
+  .table-heading{
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  padding-top: 27px;padding-bottom: 23px;
+  
+  /* Title text */
+  
+  color: #2D2F55
+  }
+  
+  .table-content{
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+  
+  padding-top: 27px;padding-bottom: 23px;
+  /* H1 */
+  
+  color: #1B1D21
+  }

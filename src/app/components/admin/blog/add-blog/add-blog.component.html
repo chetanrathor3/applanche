@@ -1,0 +1,50 @@
+<div class="container" style="">
+  <div class="container-fluid" style="max-width: 976px">
+    <form #addBlog="ngForm" (ngSubmit)="insertBlog(addBlog.value)">
+    <div class="row align-content-center" style="height: 65px">
+      <h3 style="">Add Blogs</h3>
+    </div>
+    <div class="row align-content-center" style="height: 154px">
+      <h3 class="add-Blog-heading">Blog Image</h3>
+      
+        <label for="imageupload">
+          <div class="uploader">
+            <img src="../assets/upload.png" class="img-style" />
+            <h3 class="upload-image-heading">Upload Image</h3>
+            <input id="imageupload" style="height: 100%; display: none; width: 100%" type="file" name="blogImage" src=""
+              alt="" ngModel />
+          </div>
+        </label>
+    </div>
+    <div class="row">
+      <div class="col-12 d-flex flex-column justify-content-between text-and-input-style">
+        <label for="Blog-title">Blog Title</label>
+        <input class="w-100 input-height" type="text" ngModel name="blogtitle" id="Blog-title" />
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex flex-column justify-content-between text-and-input-style">
+          <label for="Blog-title">Blog Category</label>
+          <select class="w-100 input-height" type="text" name="Category" id="Blog-title" ngModel>
+            <option value="technology">Technology</option>
+            <option value="Science">Science</option>
+            <option value="Information">Information</option>
+          </select>
+        </div>
+        <div class="row">
+          <div class="col-12 d-flex flex-column justify-content-between Blog-description">
+            <label for="Blog-title">Blog Description</label>
+            <input class="w-100 input-height2" type="text" name="Description" id="Blog-title" ngModel />
+          </div>
+        </div>
+
+        <div class="row justify-content-end">
+          <div class="col-3 d-flex flex-column justify-content-center button-container">
+            <input type="button" ngmodel name="submit" class="bt-style" value="Add Blog" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </form>
+  </div>
+</div>

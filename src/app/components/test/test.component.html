@@ -1,0 +1,80 @@
+<form #formval="ngForm" (ngSubmit)="showFormData(formval.value)">
+  <label for="name">Enter Name</label>
+  <input type="text" ngModel name="Name" id="name" placeholder="Enter Name" />
+  <br /><br /><br />
+  <label for="dob">Enter Date of birth</label>
+  <input type="date" ngModel name="dob" id="dob" placeholder="Enter Date of birth" />
+  <br /><br /><br />
+  <label for="dob">Enter Date of birth time</label>
+  <input type="datetime" ngModel name="dobt" id="dobt" placeholder="Enter Date of birth time" />
+  <br /><br /><br />
+  <label for="resume">Upload Resume</label>
+  <input type="file" ngModel name="resume" id="resume" placeholder="Insert Resume" />
+  <br /><br /><br />
+  <label for="photo">Upload photo</label>
+  <input type="image" ngModel name="photo" id="photo" placeholder="Insert photo" />
+  <br /><br /><br />
+  <label for="photo">Enter Favourite Month</label>
+  <input type="month" ngModel name="month" id="month" placeholder="Enter Month" />
+  <br /><br /><br />
+  <label for="photo">Enter Favourite Number</label>
+  <input type="number" ngModel name="number" id="month" placeholder="Enter number" />
+  <br /><br /><br />
+  <label for="photo">Enter Password</label>
+  <input type="password" ngModel name="password" id="password" placeholder="Enter password" />
+  <br /><br /><br />
+  <label for="photo">Enter specific Range</label>
+  <input type="range" ngModel name="range" id="range" placeholder="Enter Specific Range" min="100" max="500" step="2" />
+  <br /><br /><br />
+  <label for="name">Enter Email</label>
+  <input
+    type="email"
+    ngModel
+    name="Email"
+    id="Email"
+    placeholder="Enter Email"
+  />
+  <br /><br /><br />
+  <label for="name">Enter Gender</label>
+  <input type="radio" ngModel name="Gender" id="Gender" value="Male" />
+  Male
+  <input type="radio" ngModel name="Gender" id="Gender" value="FeMale" />
+  Female
+  <br /><br /><br />
+  <label for="category">Select Category</label>
+  <select ngModel name="category" id="category">
+    <option name="category"value="General">General</option>
+    <option name="category"value="OBC">OBC</option>
+    <option name="category"value="ST/SC">ST/SC</option>
+  </select>
+  <br /><br /><br />
+  <label for="color">Enter Favourite Color</label>
+  <input
+    type="color"
+    ngModel
+    name="color"
+    id="color"
+  />
+  <br /><br /><br />
+  <label for="color">Please Check</label>
+  <input
+    type="checkbox"
+    ngModel
+    name="tnc"
+    id="color"
+  /> Accept T&C
+  <input
+    type="checkbox"
+    ngModel
+    name="pp"
+    id="color"
+  /> Accept Privacy Policy
+  <input
+    type="checkbox"
+    ngModel
+    name="coc"
+    id="color"
+  />Accept Code of Conduct
+  <br /><br /><br />
+  <input type="submit" value="Post" />
+</form>

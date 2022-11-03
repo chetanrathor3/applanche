@@ -1,0 +1,16 @@
+.container{
+    height: 511px;
+    max-width: 1072px;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    padding: 14px 39px;
+    border-radius: 5px;
+    background-color: #004FFF;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 188px;
+}
